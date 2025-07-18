@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NeuroLaunch – AI SaaS Landing Page</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+  <style>
+    .hero-section {
+      background: linear-gradient(to right, #141e30, #243b55);
+      color: white;
+      padding: 80px 0;
+      text-align: center;
+    }
+    .hero-section h1 {
+      font-size: 3rem;
+      font-weight: bold;
+    }
+    .hero-section p {
+      font-size: 1.2rem;
+      margin-top: 15px;
+      color: #ccc;
+    }
+        #features img {
+        transition: transform 0.3s ease;
+    }
+        #features img:hover {
+        transform: scale(1.1);
+    }
+    
+
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">NeuroLaunch</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+          <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
+          <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+          <li class="nav-item"><a class="btn btn-primary ms-2" href="#get-started">Get Started</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="container">
+      <h1>Build Smarter, Learn Faster with NeuroLaunch</h1>
+      <p>AI-powered tools for education, research, and productivity. Perfect for students, creators, and startups.</p>
+      <a href="#get-started" class="btn btn-lg btn-primary mt-4">Get Started Free</a>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+<section id="features" class="py-5 bg-light">
+  <div class="container">
+    <div class="text-center mb-5">
+      <h2 class="fw-bold">Why Choose NeuroLaunch?</h2>
+      <p class="text-muted">Smart tools designed to simplify your learning and productivity experience.</p>
+    </div>
+    <div class="row g-4">
+      <!-- Feature 1 -->
+      <div class="col-md-6 col-lg-3 text-center">
+        <img src="https://cdn-icons-png.flaticon.com/512/1828/1828673.png" alt="AI Assistant" width="60">
+        <h5 class="mt-3">AI Assistant</h5>
+        <p class="text-muted">Instant help with homework, writing, and idea generation.</p>
+      </div>
+
+      <!-- Feature 2 -->
+      <div class="col-md-6 col-lg-3 text-center">
+        <img src="https://cdn-icons-png.flaticon.com/512/4761/4761800.png" alt="Smart Notes" width="60">
+        <h5 class="mt-3">Smart Notes</h5>
+        <p class="text-muted">Summarize lectures, extract keywords, and keep notes organized.</p>
+      </div>
+
+      <!-- Feature 3 -->
+      <div class="col-md-6 col-lg-3 text-center">
+        <img src="https://cdn-icons-png.flaticon.com/512/3524/3524349.png" alt="Study Planner" width="60">
+        <h5 class="mt-3">Study Planner</h5>
+        <p class="text-muted">Personalized schedules and reminders to stay on track.</p>
+      </div>
+
+      <!-- Feature 4 -->
+      <div class="col-md-6 col-lg-3 text-center">
+        <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="User Dashboard" width="60">
+        <h5 class="mt-3">User Dashboard</h5>
+        <p class="text-muted">Track your learning journey and monitor AI interaction history.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Pricing Section -->
+<section id="pricing" class="py-5 bg-white">
+  <div class="container">
+    <div class="text-center mb-5">
+      <h2 class="fw-bold">Flexible Pricing for Every User</h2>
+      <p class="text-muted">Start free, upgrade as you grow. No credit card required for free tier.</p>
+    </div>
+
+    <div class="row g-4 justify-content-center">
+      <!-- Free Plan -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card border-primary h-100 text-center">
+          <div class="card-body">
+            <h5 class="card-title">Free</h5>
+            <h2 class="card-price">$0<span class="fs-6">/mo</span></h2>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>✔️ AI Assistant Access</li>
+              <li>✔️ 3 Smart Notes/month</li>
+              <li>❌ No Study Planner</li>
+              <li>❌ No Priority Support</li>
+            </ul>
+            <a href="#get-started" class="btn btn-outline-primary">Get Started</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Pro Plan -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card border-success h-100 text-center shadow">
+          <div class="card-body">
+            <h5 class="card-title">Pro</h5>
+            <h2 class="card-price">$9<span class="fs-6">/mo</span></h2>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>✔️ Unlimited AI Chats</li>
+              <li>✔️ Unlimited Smart Notes</li>
+              <li>✔️ Study Planner</li>
+              <li>❌ No Team Access</li>
+            </ul>
+            <a href="#get-started" class="btn btn-success">Start Free Trial</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Enterprise Plan -->
+      <div class="col-md-6 col-lg-4">
+        <div class="card border-dark h-100 text-center">
+          <div class="card-body">
+            <h5 class="card-title">Enterprise</h5>
+            <h2 class="card-price">$29<span class="fs-6">/mo</span></h2>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>✔️ All Pro Features</li>
+              <li>✔️ Team Collaboration</li>
+              <li>✔️ API Access</li>
+              <li>✔️ Priority Support</li>
+            </ul>
+            <a href="#get-started" class="btn btn-dark">Contact Sales</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- FAQ Section -->
+<section id="faq" class="py-5 bg-light">
+  <div class="container">
+    <div class="text-center mb-5">
+      <h2 class="fw-bold">Frequently Asked Questions</h2>
+      <p class="text-muted">Got questions? We've got answers.</p>
+    </div>
+
+    <div class="accordion" id="faqAccordion">
+      <!-- Question 1 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true">
+            Is NeuroLaunch really free to start?
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            Yes! Our Free plan gives you access to core AI features with no payment required.
+          </div>
+        </div>
+      </div>
+
+      <!-- Question 2 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+            Can I cancel my subscription at any time?
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            Absolutely. You can cancel, downgrade, or upgrade your plan at any time from your dashboard.
+          </div>
+        </div>
+      </div>
+
+      <!-- Question 3 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree">
+            Do I need any coding knowledge to use NeuroLaunch?
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            Nope. NeuroLaunch is built for everyone — from students to creators. No coding skills needed.
+          </div>
+        </div>
+      </div>
+
+      <!-- Question 4 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingFour">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour">
+            Do you offer team or enterprise plans?
+          </button>
+        </h2>
+        <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            Yes! Our Enterprise plan includes team collaboration, shared dashboards, and dedicated support.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact & Newsletter Section -->
+<section class="py-5 bg-light">
+  <div class="container">
+    <div class="row justify-content-between align-items-center">
+
+      <!-- Contact Info -->
+      <div class="col-md-6 mb-4">
+        <h3 class="fw-bold mb-3">Get in Touch</h3>
+        <p class="mb-2">Have questions or feedback about NeuroLaunch?</p>
+        <p>Email us at: <a href="mailto:support@neurolaunch.ai" class="text-primary">support@neurolaunch.ai</a></p>
+      </div>
+
+      <!-- Newsletter Signup -->
+      <div class="col-md-5">
+        <h4 class="fw-semibold mb-3">Subscribe to our Newsletter</h4>
+        <form>
+          <div class="mb-3">
+            <input type="email" class="form-control" placeholder="Enter your email" required>
+          </div>
+          <button type="submit" class="btn btn-primary w-100">Subscribe</button>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Footer Section -->
+<footer class="bg-dark text-white py-4">
+  <div class="container text-center">
+    <h5 class="fw-bold mb-3">NeuroLaunch</h5>
+    <p class="mb-2">AI-Powered Study Companion for Every Learner</p>
+
+    <!-- Social Links -->
+    <div class="mb-3">
+      <a href="#" class="text-white me-3"><i class="bi bi-facebook"></i></a>
+      <a href="#" class="text-white me-3"><i class="bi bi-twitter-x"></i></a>
+      <a href="#" class="text-white me-3"><i class="bi bi-linkedin"></i></a>
+      <a href="#" class="text-white"><i class="bi bi-github"></i></a>
+    </div>
+
+    <p class="mb-0">&copy; 2025 NeuroLaunch. All rights reserved.</p>
+  </div>
+</footer>
+
+    <script>
+  document.querySelector("form").addEventListener("submit", function (e) {
+    e.preventDefault();
+    alert("Thanks for subscribing!");
+  });
+</script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
