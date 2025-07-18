@@ -1,4 +1,4 @@
-# nuerolaunch-template
+
 # NeuroLaunch – AI Landing Page Template
 
 A clean and modern AI startup landing page built with HTML, CSS, and Bootstrap. Perfect for SaaS, AI tools, research products, and education startups.
